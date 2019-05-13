@@ -16,6 +16,7 @@ body, html {
   padding: 16px;
 }
 
+<<<<<<< HEAD
 .padding{
     padding: 8px;
     margin: 8px;
@@ -26,3 +27,9 @@ body, html {
 
 
 
+=======
+.w3-container {
+	margin:10px;
+	padding; 10px
+}
+>>>>>>> 60b0ce88ea26f518b985fd017bc8fe3eb45cc7d1
