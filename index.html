@@ -50,7 +50,7 @@
                     <i class="fa fa-bars"></i>
                 </a>
                 <a href="#home" class="w3-bar-item w3-button">HOME</a>
-                <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-bolt"></i> ABOUT</a>
+                <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-battery"></i> ABOUT</a>
                 <a href="#models" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> MODELS</a>
                 <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
             </div>
@@ -66,7 +66,7 @@
     <body>
 
         <!-- slideshow -->
-        <div class="slideshow-container">
+        <div class="slideshow-container" id="home">
 
             <div class="mySlides fade">
                 <img src="img/slideshow%201.jpg" style="width:100%">
@@ -183,7 +183,7 @@
         <div class="w3-container">
             <div class="w3-row padding">
                 <div class="w3-col l10 s6  w3-center w3-card-2" style="width: 50%">
-                    <img class="w3-padding-16" src="img/energy-cell.jpg" alt="energy cell" style="width 50%">
+                    <img class="w3-padding-16" src="img/energy-cell.jpg" alt="energy cell" style="width: 50%">
                     <div class="w3-container w3-center w3-white"> <p>Energy cell 5000</p>
                     </div>
                 </div>
@@ -195,7 +195,8 @@
                 </div>
             </div>
         </div>
-        <a class="w3-text-blue "href="https://tinyurl.com/y3nsgdqs">Purchase Here</a> 
+
+
 
         <!-- white text to make a space in between models -->
         <p class="w3-text-white">inserted to make a space</p>
@@ -205,7 +206,7 @@
         <div class="w3-container">
             <div class="w3-row padding">
                 <div class="w3-col l10 s6  w3-center w3-card-2" style="width: 50%">
-                    <img class="w3-padding-16" src="img/energycell-10000.jpg" alt="energy cell" style="width 50%">
+                    <img class="w3-padding-16" src="img/energycell-10000.jpg" alt="energy cell" style="width: 50%">
                     <div class="w3-container w3-center w3-white"> <p>Energy cell 10000</p>
                     </div>
                 </div>
@@ -221,7 +222,7 @@
                 </div>
             </div>
         </div>
-        <a class="w3-text-blue "href="https://www.amazon.com/POWERADD-EnergyCell-Portable-Smallest-Compatible/dp/B07MS1B8KQ">Purchase Here</a> 
+
         <!-- white text to make a space in between models -->
         <p class="w3-text-white">inserted to make a space</p>
 
@@ -229,7 +230,7 @@
         <div class="w3-container">
             <div class="w3-row padding">
                 <div class="w3-col l10 s6  w3-center w3-card-2" style="width: 50%">
-                    <img class="w3-padding-16" src="img/powerbank-20000.jpg" alt="energy cell" style="width 50%">
+                    <img class="w3-padding-16" src="img/powerbank-20000.jpg" alt="energy cell" style="width: 50%">
                     <div class="w3-container w3-center w3-white"> <p>Powerbank 20000</p>
                     </div>
                 </div>
@@ -244,7 +245,31 @@
             </div>
         </div>
 
-        <a class="w3-text-blue "href="https://www.amazon.com/POWERADD-Pilot-X7-Flashlight-Compatible/dp/B0157RHV8O">Purchase Here</a>
+<p class="w3-text-white">white text to add space</p>
+        
+            <div class="w3-container">
+                <center>
+                <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Purchase products here</button>
+</center>
+                <div id="id01" class="w3-modal w3-display middle">
+                    <div class="w3-modal-content">
+                        
+                        <div class="w3-container">
+                            <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                            
+                            <img class="w3-padding-16 w3-half" src="img/all-products.jpg" alt="procucts" style="height: auto width: 100%">
+                            
+                           <p>Purchase the Energycell 5000<a class="w3-text-blue "href="https://tinyurl.com/y3nsgdqs">here</a> 
+                            </p>
+                           <p> Purchase the energycell 10000 <a class="w3-text-blue "href="https://www.amazon.com/POWERADD-EnergyCell-Portable-Smallest-Compatible/dp/B07MS1B8KQ">here</a>
+                            </p>
+                           <p>Purchse the Powerbank 20000 <a class="w3-text-blue" href="https://www.amazon.com/POWERADD-Pilot-X7-Flashlight-Compatible/dp/B0157RHV8O">here</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
         <!-- Container (Contact Section) -->
         <div class="w3-content w3-container w3-padding-64" id="contact">
@@ -271,12 +296,7 @@
         <!-- Footer -->
         <footer class="w3-center w3-black w3-padding-64 w3-opacity">
             <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-            <div class="w3-xlarge w3-section">
-                <i class="fa fa-facebook-official w3-hover-opacity"></i>
-                <i class="fa fa-instagram w3-hover-opacity"></i>
-                <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-                <i class="fa fa-twitter w3-hover-opacity"></i>
-            </div>
+
 
         </footer>
 
